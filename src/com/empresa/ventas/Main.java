@@ -9,5 +9,7 @@ public class Main {
 
         System.out.println("Total con descuento: " +
                 v.calcularTotalConDescuento(p, 2, 0.10));
+
+        System.out.println("Total con descuento: " + v.calcularTotalConDescuento(p, 3, 0.15));
     }
 }
